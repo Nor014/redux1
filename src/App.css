@@ -1,22 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
+  margin-bottom: 20px;
+  max-width: 550px;
+  margin: 0 auto 20px auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 5px;
 }
 
-.App-link {
-  color: #09d3ac;
+.input__form {
+  margin-right: 20px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.servise-list {
+  list-style: none;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.servise-list__text {
+  flex: 0 1 300px;
+}
+
+.servise-list__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+
+.service-list__btn {
+  margin-right: 10px;
 }
